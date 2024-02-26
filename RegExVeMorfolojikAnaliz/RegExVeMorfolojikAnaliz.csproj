@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ZemberekDotNet.All" Version="0.18.2" />
+    <PackageReference Include="ZemberekDotNet.Core" Version="0.18.1" />
+    <PackageReference Include="ZemberekDotNet.Morphology" Version="0.18.2" />
+    <PackageReference Include="ZemberekDotNet.Tokenization" Version="0.18.1" />
+  </ItemGroup>
+
+</Project>
